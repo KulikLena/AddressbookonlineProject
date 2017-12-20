@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Addressbookonline suite]" parallel="tests">
+  <test name="Set2 test(failed)" parallel="tests">
+    <classes>
+      <class name="testscripts.LoginMozilla">
+        <methods>
+          <include name="testUp"/>
+          <include name="tearDown"/>
+          <include name="suiteDown"/>
+          <include name="base"/>
+          <include name="testDown"/>
+          <include name="classDown"/>
+          <include name="testLogin"/>
+          <include name="suiteUp"/>
+          <include name="classUp"/>
+        </methods>
+      </class> <!-- testscripts.LoginMozilla -->
+    </classes>
+  </test> <!-- Set2 test(failed) -->
+  <test name="Set1 test(failed)" parallel="tests">
+    <classes>
+      <class name="testscripts.LoginOpera">
+        <methods>
+          <include name="testUp"/>
+          <include name="suiteUp"/>
+          <include name="classUp"/>
+          <include name="suiteDown"/>
+          <include name="testLogin" invocation-numbers="2 3 4 5"/>
+          <include name="tearDown"/>
+          <include name="classDown"/>
+          <include name="base"/>
+          <include name="testDown"/>
+        </methods>
+      </class> <!-- testscripts.LoginOpera -->
+    </classes>
+  </test> <!-- Set1 test(failed) -->
+</suite> <!-- Failed suite [Addressbookonline suite] -->

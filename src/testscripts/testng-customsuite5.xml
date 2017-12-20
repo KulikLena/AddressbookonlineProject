@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Addressbookonline suite">
+  
+<!--<test verbose="2" name="Set5 test">
+    <classes>
+     
+      <class name="testscripts.AddContact"/>
+      <class name="testscripts.DeleteContact"/>
+      <class name="testscripts.Parametrs"/>
+      <class name="testscripts.Locators"/>
+      <class name="testscripts.HelpMethods"/>
+          </classes>
+  </test> <!-- Set1 test --> -->
+   
+   
+</suite> <!-- Addressbookonline suite -->

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Addressbookonline suite" parallel="tests" thread-count="2">
+  
+ 
+  <test verbose="2" name="Set1 test">
+    <classes>
+      <class name="testscripts.LoginOpera"/>
+               
+      
+    </classes>
+  </test> <!-- Set1 test -->
+ 
+     <test verbose="2" name="Set2 test">
+    <classes>
+           
+      <class name="testscripts.LoginMozilla"/>
+            
+       </classes>
+  </test> <!-- Set1 test -->
+   
+</suite> <!-- Addressbookonline suite -->

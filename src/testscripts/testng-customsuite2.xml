@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Addressbookonline suite">
+  
+  <test verbose="2" name="Set2 test">
+      <groups>
+   <run>
+     
+  <include name = "Critical" />
+   
+   </run>
+  </groups>
+   <packages>
+  
+  <package name = "testscripts"/>
+  
+   </packages>
+  
+  </test> <!-- Set2 test -->
+  
+  
+  
+</suite> <!-- Addressbookonline suite -->
